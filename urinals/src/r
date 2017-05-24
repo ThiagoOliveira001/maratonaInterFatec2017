@@ -1,0 +1,16 @@
+#!/bin/bash
+
+APP=urinals
+
+java $APP < entrada01.txt > saida01.txt
+diff exemplo01.txt saida01.txt
+
+java $APP < entrada02.txt > saida02.txt
+diff exemplo02.txt saida02.txt
+
+java $APP < entrada03.txt > saida03.txt
+diff exemplo03.txt saida03.txt
+
+
+#FC /N exemplo01.txt saida01.txt
+#java $APP < entrada01.txt > saida01.txt

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+APP=funil
+
+java $APP < entrada01.txt > saida01.txt
+diff exemplo01.txt saida01.txt
+
+
+#FC /N exemplo01.txt saida01.txt
+#java $APP < entrada01.txt > saida01.txt
